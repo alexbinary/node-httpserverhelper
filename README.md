@@ -1,5 +1,5 @@
 
-# HttpServer
+# HttpServerHelper
 
 Minimalist wrapper for Node's native `HttpServer` object.
 
@@ -66,14 +66,14 @@ Launch the demo app with :
     cd demo/
     node index.js
 
-Then visit `http://localhost`. You should see `hello, world`.
+Then visit http://localhost. You should see `hello, world`.
 
 The app launches on port `80` by default.
 You can specify another port by passing it as first argument. For example
 
     node index.js 42424
 
-Will run the app on port `42424`. In that case use `http://localhost:42424` to view the result.
+Will run the app on port `42424`. In that case use http://localhost:42424 to view the result.
 
 
 # Infos

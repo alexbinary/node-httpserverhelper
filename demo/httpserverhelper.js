@@ -1,5 +1,5 @@
 /**
- * httpserver.js - generic HTTP server
+ * httpserverhelper.js - Minimalist wrapper for Node's native `HttpServer` object.
  *
  * @author Alexandre Bintz
  * dec. 2014

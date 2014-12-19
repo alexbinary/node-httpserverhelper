@@ -1,5 +1,5 @@
 /*
- * index.js - httpserver demo
+ * index.js - httpserverhelper demo
  *
  * @author Alexandre Bintz
  * dec. 2014
@@ -13,7 +13,7 @@
 
 "use strict";
 
-var rHttpServer = require('./httpserver');
+var rHttpServer = require('./httpserverhelper');
 
 var defaultPort = 80;
 var port = process.argv.length > 2 && process.argv[2].match(/^[0-9]+$/) ? process.argv[2] : defaultPort;
