@@ -9,6 +9,19 @@ Features :
 - transparent event logging ;
 - decouple request handling from generic server logic.
 
+This module is good for experimenting and quick prototyping due to its easy setup and rich log output.
+However it might be not suitable for precise configurations and performances/security requirements.
+
+
+# Minimalistic example
+
+  var httpServer = require('httpserverhelper').createServer({
+    handleRequest: function(pRequest, pResponse) {
+      pResponse.end('hello, world');
+    }
+  });
+  httpServer.start(80);
+
 
 # Module documentation
 
