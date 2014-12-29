@@ -15,12 +15,14 @@ However it might be not suitable for precise configurations and performances/sec
 
 # Minimalistic example
 
-  var httpServer = require('httpserverhelper').createServer({
-    handleRequest: function(pRequest, pResponse) {
-      pResponse.end('hello, world');
-    }
-  });
-  httpServer.start(80);
+```javascript
+var httpServer = require('httpserverhelper').createServer({
+  handleRequest: function(pRequest, pResponse) {
+    pResponse.end('hello, world');
+  }
+});
+httpServer.start(80);
+```
 
 
 # Module documentation
