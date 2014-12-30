@@ -72,25 +72,6 @@ Emitted when the server is ready and listening for connections.
 Event listener is passed the address and port the server is listening to.
 
 
-# Run the demo
-
-You need to have Node.js installed to run the demo.
-
-Launch the demo app with :
-
-    cd demo/
-    node index.js
-
-Then visit http://localhost. You should see `hello, world`.
-
-The app launches on port `80` by default.
-You can specify another port by passing it as first argument. For example
-
-    node index.js 42424
-
-Will run the app on port `42424`. In that case use http://localhost:42424 to view the result.
-
-
 # Infos
 
 Node.js HTTP module : http://nodejs.org/api/http.html
