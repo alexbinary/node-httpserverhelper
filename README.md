@@ -24,6 +24,44 @@ var httpServer = require('httpserverhelper').createServer({
 httpServer.start(80);
 ```
 
+Output :
+
+```
+http server listening on :::80
+```
+
+If you visit http://localhost/index.html you will get the following kind of output :
+
+```
+http server connection
+http request:
+{ url: '/index.html',
+  method: 'GET',
+  httpVersion: '1.1',
+  headers:
+   { host: 'localhost',
+     'accept-encoding': 'gzip, deflate',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9',
+     'accept-language': 'fr-fr',
+     dnt: '1',
+     connection: 'keep-alive' } }
+http server connection
+http request:
+{ url: '/favicon.ico',
+  method: 'GET',
+  httpVersion: '1.1',
+  headers:
+   { host: 'localhost',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9',
+     'accept-language': 'fr-fr',
+     referer: 'http://localhost/index.html',
+     dnt: '1' } }
+```
+
 
 # Module documentation
 
