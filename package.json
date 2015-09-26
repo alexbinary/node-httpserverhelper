@@ -1,6 +1,6 @@
 {
   "name": "httpserverhelper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimalist wrapper for Node's native `HttpServer` object.",
   "main": "httpserverhelper.js",
   "scripts": {
