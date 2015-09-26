@@ -117,5 +117,5 @@ Node.js HTTP module : http://nodejs.org/api/http.html
 
 # Contact
 
-Alexandre Bintz <alexandre.bintz@gmail.com>  
-Any comment or suggestion is welcome.
+Alexandre Bintz <alexandre@bintz.io>  
+Comments and suggestions are welcome.
